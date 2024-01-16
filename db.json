@@ -1,14 +1,244 @@
 {
-    "users": [
+  "eclosion": [
       {
-        "id": 1,
-        "name": "David",
-        "age": 30
+          "id_eclosion": 1,
+          "id_incubadora": 1000,
+          "huevos": 15,
+          "eclosiones": 14,
+          "porcentajeEclosion": 95,
+          "fechaHoraInicio": "2023-06-25",
+          "fechaHoraFinal": "2023-06-25",
+          "Beneficio": 1000,
+          "costoEnergetico": 70,
+          "dias": 21
       },
       {
-        "name": "John",
-        "id": 2,
-        "age": 40
+          "id_eclosion": 2,
+          "id_incubadora": 1000,
+          "huevos": 15,
+          "eclosiones": 15,
+          "porcentajeEclosion": 100,
+          "fechaHoraInicio": "2023-06-25",
+          "fechaHoraFinal": "2023-06-25",
+          "Beneficio": 1200,
+          "costoEnergetico": 40,
+          "dias": 19
+      },
+      {
+          "id_eclosion": 3,
+          "id_incubadora": 1000,
+          "huevos": 15,
+          "eclosiones": 10,
+          "porcentajeEclosion": 80,
+          "fechaHoraInicio": "2023-06-25",
+          "fechaHoraFinal": "2023-06-25",
+          "Beneficio": 850,
+          "costoEnergetico": 52,
+          "dias": 25
+      },
+      {
+          "id_eclosion": 4,
+          "id_incubadora": 1000,
+          "huevos": 15,
+          "eclosiones": 13,
+          "porcentajeEclosion": 85,
+          "fechaHoraInicio": "2023-06-25",
+          "fechaHoraFinal": "2023-06-25",
+          "Beneficio": 950,
+          "costoEnergetico": 60,
+          "dias": 23
+      },
+      {
+          "id_eclosion": 5,
+          "id_incubadora": 2000,
+          "huevos": 15,
+          "eclosiones": 12,
+          "porcentajeEclosion": 80,
+          "fechaHoraInicio": "2023-06-27",
+          "fechaHoraFinal": "2023-06-27",
+          "Beneficio": 5000,
+          "costoEnergetico": 52,
+          "dias": 22
+      },
+      {
+          "id_eclosion": 6,
+          "id_incubadora": 2000,
+          "huevos": 15,
+          "eclosiones": 12,
+          "porcentajeEclosion": 60,
+          "fechaHoraInicio": "2023-06-27",
+          "fechaHoraFinal": "2023-06-27",
+          "Beneficio": 3000,
+          "costoEnergetico": 40,
+          "dias": 20
       }
-    ]
+  ],
+  "incubadora": [
+      {
+          "id_incubadora": 1000,
+          "Descripcion": "Median"
+      },
+      {
+          "id_incubadora": 2000,
+          "Descripcion": "pequeña"
+      }
+  ],
+  "incubadoraporusuario": [
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "50",
+          "humedad": "50",
+          "fechaHora": "2023-06-29 08:53:37"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "38",
+          "humedad": "38",
+          "fechaHora": "2023-06-29 16:04:07"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "37",
+          "humedad": "37",
+          "fechaHora": "2023-06-29 16:04:26"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "33",
+          "humedad": "33",
+          "fechaHora": "2023-06-29 16:06:17"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "60",
+          "humedad": "60",
+          "fechaHora": "2023-06-29 16:06:36"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "60",
+          "humedad": "60",
+          "fechaHora": "2023-06-29 16:24:25"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "57",
+          "humedad": "57",
+          "fechaHora": "2023-06-29 16:25:15"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "38",
+          "humedad": "38",
+          "fechaHora": "2023-06-29 16:25:37"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "45",
+          "humedad": "45",
+          "fechaHora": "2023-06-29 16:25:52"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "67",
+          "humedad": "67",
+          "fechaHora": "2023-06-29 16:26:37"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "80",
+          "humedad": "80",
+          "fechaHora": "2023-06-29 16:26:55"
+      },
+      {
+          "id_usuario": 1,
+          "nombre_usuario": "grupo1",
+          "id_incubadora": 1000,
+          "temperatura": "71",
+          "humedad": "71",
+          "fechaHora": "2023-06-29 16:27:41"
+      },
+      {
+      "id_usuario": 1,
+      "nombre_usuario": "grupo1",
+      "id_incubadora": 1000,
+      "temperatura": "64",
+      "humedad": "64",
+      "fechaHora": "2023-06-29 16:27:51"
+      },
+      {
+      "id_usuario": 1,
+      "nombre_usuario": "grupo1",
+      "id_incubadora": 1000,
+      "temperatura": "63",
+      "humedad": "63",
+      "fechaHora": "2023-06-29 16:28:29"
+  },
+  {
+      "id_usuario": 1,
+      "nombre_usuario": "grupo1",
+      "id_incubadora": 1000,
+      "temperatura": "60",
+      "humedad": "60",
+      "fechaHora": "2023-06-29 16:28:42"
+  },
+  {
+      "id_usuario": 1,
+      "nombre_usuario": "grupo1",
+      "id_incubadora": 1000,
+      "temperatura": "37.5",
+      "humedad": "80",
+      "fechaHora": "2023-06-29 18:23:29"
+  },
+  {
+      "id_usuario": 1,
+      "nombre_usuario": "grupo1",
+      "id_incubadora": 2000,
+      "temperatura": "0",
+      "humedad": "0",
+      "fechaHora": "2023-06-29 18:25:57"
   }
+],
+"usuarios": [
+  {
+      "id_usuario": 0,
+      "nombre_usuario": "admin",
+      "nombre": "Jean",
+      "apellido": "Modesto",
+      "password": "admin",
+      "tipo_uso": "Granja",
+      "correo": "jeanmvs71@gmail.com"
+  },
+  {
+      "id_usuario": 1,
+      "nombre_usuario": "grupo1",
+      "nombre": "grupo",
+      "apellido": "1",
+      "password": "123",
+      "tipo_uso": "granja",
+      "correo": "grupo1@gmail.com"
+  }
+]
+}
